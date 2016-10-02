@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 Route::template('home', function () {
-    return view('example.home');
+    return 'example home';
 });
 
 Route::archive(function () {

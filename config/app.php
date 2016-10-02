@@ -225,8 +225,8 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
 
         // Larapress Aliases
-        'Wordpress' => \JordanDoyle\Larapress\Support\Wordpress::class,
-        'Meta' => \JordanDoyle\Larapress\Models\Meta::class,
+        'Wordpress' => JordanDoyle\Larapress\Support\Wordpress::class,
+        'Meta' => JordanDoyle\Larapress\Models\Meta::class,
 
     ],
 

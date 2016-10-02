@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5020ed4515963deed630be2accd0b625",
-    "content-hash": "01f4beb3728c12d6c8750030dbcfc76a",
+    "hash": "8fa7d50fb711a33445457f486905190a",
+    "content-hash": "1431cfaffe99eb973c3ecdb7655a13e3",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -308,16 +308,16 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.6.1",
+            "version": "4.6.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "aca8da84b4a699b16b8bcc96d2bc794a4c7b5ae3"
+                "reference": "844b25b20adfe2cc354bf92fe20bf9537b62d222"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/aca8da84b4a699b16b8bcc96d2bc794a4c7b5ae3",
-                "reference": "aca8da84b4a699b16b8bcc96d2bc794a4c7b5ae3",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/844b25b20adfe2cc354bf92fe20bf9537b62d222",
+                "reference": "844b25b20adfe2cc354bf92fe20bf9537b62d222",
                 "shasum": ""
             },
             "require": {
@@ -341,7 +341,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2016-09-07 15:01:47"
+            "time": "2016-10-01 12:31:37"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -1950,6 +1950,47 @@
                 "environment"
             ],
             "time": "2016-09-01 10:05:43"
+        },
+        {
+            "name": "w4/larapress-lib",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/w4/larapress-lib.git",
+                "reference": "10f3a7b73b8fd645eae32fb6d76a89edb2fd5130"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/w4/larapress-lib/zipball/10f3a7b73b8fd645eae32fb6d76a89edb2fd5130",
+                "reference": "10f3a7b73b8fd645eae32fb6d76a89edb2fd5130",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/database": "^5.3",
+                "illuminate/routing": "^5.3",
+                "illuminate/support": "5.3.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "JordanDoyle\\Larapress\\": "src/"
+                }
+            },
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Jordan Doyle",
+                    "email": "jordan@doyle.wf"
+                }
+            ],
+            "description": "Integrate Wordpress into Laravel seamlessly",
+            "support": {
+                "source": "https://github.com/w4/larapress-lib/tree/master",
+                "issues": "https://github.com/w4/larapress-lib/issues"
+            },
+            "time": "2016-10-02 21:48:08"
         }
     ],
     "packages-dev": [
@@ -3524,8 +3565,10 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "w4/larapress-lib": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
