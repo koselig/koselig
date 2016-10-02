@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 Route::template('home', function () {
-    return 'home template';
+    dd(\JordanDoyle\Larapress\Models\Meta::get());
 });
 
 Route::archive(function () {
@@ -24,5 +24,5 @@ Route::archive(function () {
 });
 
 Route::singular('post', function () {
-    return 'post';
+    dd(\JordanDoyle\Larapress\Models\Meta::get('_wp_page_template'));
 });

@@ -51,6 +51,7 @@ class WordpressServiceProvider extends ServiceProvider
         define('DB_HOST', $db['host']);
         define('DB_CHARSET', $db['charset']);
         define('DB_COLLATE', $db['collation']);
+        define('DB_PREFIX', $table_prefix);
 
         define('AUTH_KEY', config('app.auth_key'));
         define('SECURE_AUTH_KEY', config('app.secure_auth_key'));
