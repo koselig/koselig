@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 Route::template('home', function () {
-    dd(\JordanDoyle\Larapress\Models\Meta::get());
+    dd(\JordanDoyle\Larapress\Models\Post::find(1)->meta);
 });
 
 Route::archive(function () {
@@ -24,5 +24,5 @@ Route::archive(function () {
 });
 
 Route::singular('post', function () {
-    dd(\JordanDoyle\Larapress\Models\Meta::get('_wp_page_template'));
+    dd(Meta::get('_edit_lock'));
 });

@@ -233,6 +233,10 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
+        // Larapress Aliases
+        'Wordpress' => \JordanDoyle\Larapress\Support\Wordpress::class,
+        'Meta' => \JordanDoyle\Larapress\Models\Meta::class,
+
     ],
 
 ];

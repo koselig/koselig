@@ -62,4 +62,14 @@ class Wordpress
     {
         return $types === null || empty($types) ? is_archive() : is_post_type_archive($types);
     }
+
+    /**
+     * Get the current logged in user.
+     *
+     * @return \WP_User
+     */
+    public static function currentUser()
+    {
+        return wp_get_current_user();
+    }
 }

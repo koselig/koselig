@@ -2,10 +2,11 @@
 namespace JordanDoyle\Larapress\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use JordanDoyle\Larapress\Support\Wordpress;
 
 /**
- * Model for post meta lookup.
+ * Table containing all metadata about a post.
  *
  * @author Jordan Doyle <jordan@doyle.wf>
  */
@@ -55,6 +56,18 @@ class Meta extends Model
             })->all();
         }
 
-        return self::$cache[$page]->where('meta_key', $name)->first()->meta_value;
+        $value = self::$cache[$page]->where('meta_key', $name)->first();
+
+        return empty($value) ? null : $value->meta_value;
+    }
+
+    /**
+     * Get the post that this meta value belongs to.
+     *
+     * @return BelongsTo
+     */
+    public function post()
+    {
+        return $this->belongsTo(Post::class);
     }
 }
