@@ -3,6 +3,7 @@ namespace JordanDoyle\Larapress\Routing;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Route;
+use JordanDoyle\Larapress\Support\Wordpress;
 
 /**
  * Single page route, this route is matched when the
@@ -31,7 +32,7 @@ class PageRoute extends Route
      */
     public function matches(Request $request, $includingMethod = true)
     {
-        $id = get_the_ID();
+        $id = Wordpress::id();
 
         if (!$id) {
             // we're not on a Wordpress page

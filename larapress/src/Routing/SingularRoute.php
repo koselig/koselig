@@ -3,6 +3,7 @@ namespace JordanDoyle\Larapress\Routing;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Route;
+use JordanDoyle\Larapress\Support\Wordpress;
 
 /**
  * Singular route, this route is matched when the user
@@ -54,11 +55,11 @@ class SingularRoute extends Route
      */
     public function matches(Request $request, $includingMethod = true)
     {
-        if (!get_the_ID()) {
+        if (!Wordpress::id()) {
             // this isn't a wordpress-controlled page
             return false;
         }
 
-        return is_singular($this->types);
+        return Wordpress::singular($this->types);
     }
 }

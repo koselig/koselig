@@ -29,4 +29,37 @@ class Wordpress
     {
         return get_the_ID();
     }
+
+    /**
+     * Get the slug of the template of a page.
+     *
+     * @param string $page
+     * @return false|string
+     */
+    public static function templateSlug($page = null)
+    {
+        return get_page_template_slug($page);
+    }
+
+    /**
+     * Check if the current page is a singular item (eg. a news post)
+     *
+     * @param array|string $types
+     * @return bool
+     */
+    public static function singular($types = '')
+    {
+        return is_singular($types);
+    }
+
+    /**
+     * Check if the current page is an archive page
+     *
+     * @param string|array|null $types check if the archive page is for this type
+     * @return bool
+     */
+    public static function archive($types = null)
+    {
+        return $types === null || empty($types) ? is_archive() : is_post_type_archive($types);
+    }
 }

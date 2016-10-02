@@ -3,6 +3,7 @@ namespace JordanDoyle\Larapress\Routing;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Route;
+use JordanDoyle\Larapress\Support\Wordpress;
 
 /**
  * Template route, this route is matched then the Wordpress
@@ -31,7 +32,7 @@ class TemplateRoute extends Route
      */
     public function matches(Request $request, $includingMethod = true)
     {
-        $slug = get_page_template_slug();
+        $slug = Wordpress::templateSlug();
 
         if (!$slug) {
             // the page we are on either isn't in the CMS or doesn't have a template.

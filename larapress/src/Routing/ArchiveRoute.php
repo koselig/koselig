@@ -3,6 +3,7 @@ namespace JordanDoyle\Larapress\Routing;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Route;
+use JordanDoyle\Larapress\Support\Wordpress;
 
 /**
  * Archive page route, used when Wordpress reports
@@ -54,6 +55,6 @@ class ArchiveRoute extends Route
      */
     public function matches(Request $request, $includingMethod = true)
     {
-        return empty($this->postTypes) ? is_archive() : is_post_type_archive($this->postTypes);
+        return Wordpress::archive($this->postTypes);
     }
 }
