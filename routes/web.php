@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 Route::template('home', function () {
-    dd(\JordanDoyle\Larapress\Models\Post::find(1)->meta);
+    return view('example.home');
 });
 
 Route::archive(function () {
