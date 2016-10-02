@@ -2,6 +2,7 @@
 
 namespace JordanDoyle\Larapress\Providers;
 
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\ServiceProvider;
 
@@ -76,6 +77,10 @@ class WordpressServiceProvider extends ServiceProvider
 
         define('WP_CONTENT_DIR', base_path('public/content'));
         define('WP_CONTENT_URL', url('content'));
+
+        if (App::runningInConsole()) {
+            $_SERVER['SERVER_PROTOCOL'] = 'https';
+        }
 
         require ABSPATH . 'wp-settings.php';
     }

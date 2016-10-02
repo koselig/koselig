@@ -1,8 +1,7 @@
 <?php
-namespace JordanDoyle\Larapress\Support;
+namespace JordanDoyle\Larapress\Routing;
 
 use Illuminate\Http\Request;
-use Illuminate\Routing\Matching\MethodValidator;
 use Illuminate\Routing\Route;
 
 /**
@@ -13,6 +12,16 @@ use Illuminate\Routing\Route;
  */
 class TemplateRoute extends Route
 {
+    /**
+     * Format a nice string for php artisan route:list
+     *
+     * @return string
+     */
+    public function uri()
+    {
+        return 'template/' . parent::uri();
+    }
+
     /**
      * Determine if the route matches given request.
      *
@@ -25,9 +34,10 @@ class TemplateRoute extends Route
         $slug = get_page_template_slug();
 
         if (!$slug) {
+            // the page we are on either isn't in the CMS or doesn't have a template.
             return false;
         }
 
-        return $this->uri() === $slug;
+        return $this->uri === $slug;
     }
 }

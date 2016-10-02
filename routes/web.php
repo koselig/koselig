@@ -16,5 +16,13 @@ Route::get('/', function () {
 });
 
 Route::template('home', function () {
-    return 'test';
+    return 'home template';
+});
+
+Route::archive(function () {
+    return 'archive';
+});
+
+Route::singular('post', function () {
+    return 'post';
 });
