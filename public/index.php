@@ -4,20 +4,8 @@
  * Laravel - A PHP Framework For Web Artisans
  *
  * @package  Laravel
- * @author   Taylor Otwell <taylorotwell@gmail.com>
+ * @author   Taylor Otwell <taylor@laravel.com>
  */
-
-/*
-|--------------------------------------------------------------------------
-| Register Wordpress
-|--------------------------------------------------------------------------
-|
-| Here we include our Wordpress install so we can use some of the plugins,
-| classes and features installed in there.
-|
-*/
-define('WP_USE_THEMES', false);
-require __DIR__.'/../cms/wp-blog-header.php';
 
 /*
 |--------------------------------------------------------------------------

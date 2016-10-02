@@ -1,8 +1,7 @@
 /vendor
 /node_modules
 /public/storage
+/public/cms
 Homestead.yaml
 Homestead.json
 .env
-wp-config.php
-/cms
