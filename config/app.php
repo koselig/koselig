@@ -165,7 +165,7 @@ return [
         /*
          * Package Service Providers...
          */
-        JordanDoyle\Larapress\Providers\LarapressServiceProvider::class,
+        Koselig\Providers\KoseligServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -224,9 +224,9 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
-        // Larapress Aliases
-        'Wordpress' => JordanDoyle\Larapress\Support\Wordpress::class,
-        'Meta' => JordanDoyle\Larapress\Models\Meta::class,
+        // Koselig Aliases
+        'Wordpress' => Koselig\Support\Wordpress::class,
+        'Meta' => Koselig\Models\Meta::class,
 
     ],
 

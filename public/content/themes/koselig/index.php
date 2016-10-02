@@ -2,7 +2,7 @@
 /**
  * Disable the frontend of the site.
  *
- * PLEASE DO NOT USE WORDPRESS TEMPLATES WHEN USING LARAPRESS.
+ * PLEASE DO NOT USE WORDPRESS TEMPLATES WHEN USING KOSELIG.
  *
  * @author Jordan Doyle <jordan@doyle.wf>
  */

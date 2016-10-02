@@ -1,5 +1,5 @@
 {
-    "name": "w4/larapress",
+    "name": "koselig/koselig",
     "description": "Integrate Wordpress into Laravel seamlessly.",
     "keywords": ["framework", "laravel"],
     "license": "GPL-3.0+",
@@ -7,13 +7,13 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "http://github.com/w4/larapress-lib"
+            "url": "http://github.com/koselig/library"
         }
     ],
     "require": {
         "php": ">=5.6.4",
         "laravel/framework": "5.3.*",
-        "w4/larapress-lib": "dev-master",
+        "koselig/library": "dev-master",
         "johnpbloch/wordpress": "^4.6"
     },
     "require-dev": {
