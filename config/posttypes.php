@@ -14,6 +14,6 @@ return [
         'supports' => [
             'title',
             'revisions',
-        ]
-    ]
+        ],
+    ],
 ];
