@@ -1,12 +1,9 @@
 <?php
-
 namespace App\Exceptions;
 
 use Exception;
 use Illuminate\Auth\AuthenticationException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
-use JordanDoyle\Larapress\Http\Controllers\WordpressController;
-use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 class Handler extends ExceptionHandler
 {

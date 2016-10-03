@@ -2,5 +2,5 @@
 
 return [
     // slug => name
-    'home' => 'Homepage'
+    'home' => 'Homepage',
 ];

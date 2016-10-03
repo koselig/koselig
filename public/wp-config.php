@@ -1,4 +1,5 @@
 <?php
+
 // wp-config file to make the wordpress backend aware of our presence
 
 /*
@@ -51,7 +52,7 @@ $app->bootstrapWith([
     Illuminate\Foundation\Bootstrap\LoadConfiguration::class,
     Illuminate\Foundation\Bootstrap\ConfigureLogging::class,
     Illuminate\Foundation\Bootstrap\HandleExceptions::class,
-    Illuminate\Foundation\Bootstrap\RegisterFacades::class
+    Illuminate\Foundation\Bootstrap\RegisterFacades::class,
 ]);
 
 $app->instance('request', Request::capture());
@@ -63,5 +64,5 @@ url()->forceRootUrl(config('app.url'));
 
 $app->bootstrapWith([
     Illuminate\Foundation\Bootstrap\RegisterProviders::class,
-    Illuminate\Foundation\Bootstrap\BootProviders::class
+    Illuminate\Foundation\Bootstrap\BootProviders::class,
 ]);
