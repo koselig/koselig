@@ -8,5 +8,5 @@ return [
     'auth_salt' => env('AUTH_SALT'),
     'secure_auth_salt' => env('SECURE_AUTH_SALT'),
     'logged_in_salt' => env('LOGGED_IN_SALT'),
-    'nonce_salt' => env('NONCE_SALT')
+    'nonce_salt' => env('NONCE_SALT'),
 ];
