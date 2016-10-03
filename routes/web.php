@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 Route::template('home', function () {
-    return 'example home';
+    dd(Koselig\Models\Post::postType('page')->published()->get());
 });
 
 Route::archive(function () {
