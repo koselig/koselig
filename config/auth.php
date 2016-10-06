@@ -14,7 +14,7 @@ return [
     */
 
     'defaults' => [
-        'guard' => 'web',
+        'guard' => 'wordpress',
         'passwords' => 'users',
     ],
 
@@ -39,6 +39,11 @@ return [
         'web' => [
             'driver' => 'session',
             'provider' => 'users',
+        ],
+
+        'wordpress' => [
+            'driver' => 'wordpress',
+            'provider' => 'wp_users'
         ],
 
         'api' => [
@@ -69,6 +74,13 @@ return [
             'driver' => 'eloquent',
             'model' => App\User::class,
         ],
+
+        'wp_users' => [
+            'driver' => [
+                'driver' => 'eloquent',
+                'model' => Koselig\Models\User::class
+            ],
+        ]
 
         // 'users' => [
         //     'driver' => 'database',

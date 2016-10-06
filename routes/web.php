@@ -23,6 +23,11 @@ Route::group(['domain' => 2], function () {
         return 'this overrides the mainsite route when you\'re on site id 2!';
     });
 
+    Route::singular('post', function () {
+        // this is a singular page for a post with the post type 'post'
+        dd(auth()->check() ? auth()->user()->user_login : 'Not logged in via Wordpress!');
+    });
+
     Route::template('home', function () {
         // this is triggered when the user goes on a page with the template with slug 'home'
         dd(Koselig\Models\Post::postType('page')->published()->get());
