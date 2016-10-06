@@ -49,7 +49,8 @@ Route::archive(['suppliers-2', 'news'], function () {
     return 'suppliers and news archive page';
 });
 
-Route::singular('post', function () {
+Route::singular('post', function (\Koselig\Models\Post $post) {
     // this is a singular page for a post with the post type 'post'
+    dd($post);
     dd(Meta::get('_edit_lock'));
 });
