@@ -19,10 +19,6 @@ Route::get('/', function () {
 
 Route::group(['domain' => 2], function () {
     // routes for site id 2 here.
-    Route::get('/', function () {
-        return 'this overrides the mainsite route when you\'re on site id 2!';
-    });
-
     Route::singular('post', function () {
         // this is a singular page for a post with the post type 'post'
         dd(auth()->check() ? auth()->user()->user_login : 'Not logged in via Wordpress!');
@@ -49,8 +45,7 @@ Route::archive(['suppliers-2', 'news'], function () {
     return 'suppliers and news archive page';
 });
 
-Route::singular('post', function (\Koselig\Models\Post $post) {
+Route::singular('post', function (Koselig\Models\Post $post) {
     // this is a singular page for a post with the post type 'post'
     dd($post);
-    dd(Meta::get('_edit_lock'));
 });
