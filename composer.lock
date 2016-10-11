@@ -434,12 +434,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "77f29fed21ed703cfaf668d5ff99b5ac8daca4f2"
+                "reference": "4fd45329939bf7c56e5ba4c0aee60954bdbceaf3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/77f29fed21ed703cfaf668d5ff99b5ac8daca4f2",
-                "reference": "77f29fed21ed703cfaf668d5ff99b5ac8daca4f2",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/4fd45329939bf7c56e5ba4c0aee60954bdbceaf3",
+                "reference": "4fd45329939bf7c56e5ba4c0aee60954bdbceaf3",
                 "shasum": ""
             },
             "require": {
@@ -463,7 +463,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2016-10-07 14:16:39"
+            "time": "2016-10-11 09:01:45"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -519,12 +519,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/koselig/library.git",
-                "reference": "5d8f749bc0854c6f537a91bb5cae4247d65c0687"
+                "reference": "c229bd5711b9ee85311f7fb776e9cb8e27cc6be4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koselig/library/zipball/5d8f749bc0854c6f537a91bb5cae4247d65c0687",
-                "reference": "5d8f749bc0854c6f537a91bb5cae4247d65c0687",
+                "url": "https://api.github.com/repos/koselig/library/zipball/c229bd5711b9ee85311f7fb776e9cb8e27cc6be4",
+                "reference": "c229bd5711b9ee85311f7fb776e9cb8e27cc6be4",
                 "shasum": ""
             },
             "require": {
@@ -552,7 +552,7 @@
                 "source": "https://github.com/koselig/library/tree/master",
                 "issues": "https://github.com/koselig/library/issues"
             },
-            "time": "2016-10-09 14:49:19"
+            "time": "2016-10-11 22:55:57"
         },
         {
             "name": "laravel/framework",
@@ -560,12 +560,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "5e92b0527957eee36b48abc0ddc3f5bbb4b03a03"
+                "reference": "ea7b79b51882d1c87c36541ace63681f9ae600fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/5e92b0527957eee36b48abc0ddc3f5bbb4b03a03",
-                "reference": "5e92b0527957eee36b48abc0ddc3f5bbb4b03a03",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/ea7b79b51882d1c87c36541ace63681f9ae600fa",
+                "reference": "ea7b79b51882d1c87c36541ace63681f9ae600fa",
                 "shasum": ""
             },
             "require": {
@@ -680,7 +680,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-10-09 01:37:08"
+            "time": "2016-10-10 14:10:37"
         },
         {
             "name": "league/flysystem",
@@ -688,12 +688,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "d9a69fb853eee3be07767c30944c7ed99d94e5e7"
+                "reference": "cd99222ea789d74e9a1c85f51bf33bbff4e6fddd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/d9a69fb853eee3be07767c30944c7ed99d94e5e7",
-                "reference": "d9a69fb853eee3be07767c30944c7ed99d94e5e7",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/cd99222ea789d74e9a1c85f51bf33bbff4e6fddd",
+                "reference": "cd99222ea789d74e9a1c85f51bf33bbff4e6fddd",
                 "shasum": ""
             },
             "require": {
@@ -763,7 +763,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2016-10-07 17:33:27"
+            "time": "2016-10-10 07:45:55"
         },
         {
             "name": "monolog/monolog",
@@ -1101,12 +1101,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "607ce1d4005af32dd866c4a402459494c168d555"
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/607ce1d4005af32dd866c4a402459494c168d555",
-                "reference": "607ce1d4005af32dd866c4a402459494c168d555",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
                 "shasum": ""
             },
             "require": {
@@ -1140,7 +1140,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-09-25 13:41:54"
+            "time": "2016-10-10 12:19:37"
         },
         {
             "name": "psy/psysh",
@@ -2297,12 +2297,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "6e17ce075da9ace831033419a986cc81232ee08f"
+                "reference": "66e2ffd3ea74f31cae48a9a4e1adfe2a1ff30150"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/6e17ce075da9ace831033419a986cc81232ee08f",
-                "reference": "6e17ce075da9ace831033419a986cc81232ee08f",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/66e2ffd3ea74f31cae48a9a4e1adfe2a1ff30150",
+                "reference": "66e2ffd3ea74f31cae48a9a4e1adfe2a1ff30150",
                 "shasum": ""
             },
             "require": {
@@ -2339,7 +2339,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2016-10-07 10:14:39"
+            "time": "2016-10-10 09:10:21"
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -3776,12 +3776,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/webmozart/assert.git",
-                "reference": "8444f2ac9f86342665cdae47b6d3ea6e07794456"
+                "reference": "1a6cc8d09dd675802ca93de290ac483c10ef95e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/8444f2ac9f86342665cdae47b6d3ea6e07794456",
-                "reference": "8444f2ac9f86342665cdae47b6d3ea6e07794456",
+                "url": "https://api.github.com/repos/webmozart/assert/zipball/1a6cc8d09dd675802ca93de290ac483c10ef95e0",
+                "reference": "1a6cc8d09dd675802ca93de290ac483c10ef95e0",
                 "shasum": ""
             },
             "require": {
@@ -3818,7 +3818,7 @@
                 "check",
                 "validate"
             ],
-            "time": "2016-08-18 09:30:53"
+            "time": "2016-10-10 07:45:47"
         }
     ],
     "aliases": [],
