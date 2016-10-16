@@ -22,7 +22,7 @@
         </script>
     </head>
 
-    <body>
+    <body class="{{ isset($post) ? $post->classes() : '' }}">
         @yield('body')
     </body>
 </html>

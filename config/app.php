@@ -227,6 +227,9 @@ return [
         'Wordpress' => Koselig\Support\Wordpress::class,
         'Meta' => Koselig\Models\Meta::class,
         'Hash' => Koselig\Facades\WPHash::class,
+        'Query' => Koselig\Facades\Query::class,
+
+        // Application Aliases
 
     ],
 
