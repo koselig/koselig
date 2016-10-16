@@ -11,17 +11,19 @@
                 <div class="panel-footer">- <a href="{{ $post->author->link() }}">{{ $post->author->display_name }}</a></div>
             </div>
 
-            <div class="panel panel-default">
-                <div class="panel-heading">Comments</div>
-                <div class="panel-body">
-                    @foreach($post->comments as $comment)
-                        <blockquote>
-                            <p>{!! $comment->comment_content !!}</p>
-                            <footer>{{ $comment->comment_author }}</footer>
-                        </blockquote>
-                    @endforeach
+            @unless($post->comments->isEmpty())
+                <div class="panel panel-default">
+                    <div class="panel-heading">Comments</div>
+                    <div class="panel-body">
+                        @foreach($post->comments as $comment)
+                            <blockquote>
+                                <p>{!! $comment->comment_content !!}</p>
+                                <footer>{{ $comment->comment_author }}</footer>
+                            </blockquote>
+                        @endforeach
+                    </div>
                 </div>
-            </div>
+            @endunless
         </div>
     </div>
 @stop
