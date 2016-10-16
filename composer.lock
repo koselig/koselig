@@ -519,12 +519,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/koselig/library.git",
-                "reference": "58d5298f85891962b05aae811efea5955f26c97f"
+                "reference": "c0b0d7ed4ce8cc8265cfcc162af72fbfa4b25f57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koselig/library/zipball/58d5298f85891962b05aae811efea5955f26c97f",
-                "reference": "58d5298f85891962b05aae811efea5955f26c97f",
+                "url": "https://api.github.com/repos/koselig/library/zipball/c0b0d7ed4ce8cc8265cfcc162af72fbfa4b25f57",
+                "reference": "c0b0d7ed4ce8cc8265cfcc162af72fbfa4b25f57",
                 "shasum": ""
             },
             "require": {
@@ -552,7 +552,7 @@
                 "source": "https://github.com/koselig/library/tree/master",
                 "issues": "https://github.com/koselig/library/issues"
             },
-            "time": "2016-10-16 10:05:08"
+            "time": "2016-10-16 11:18:34"
         },
         {
             "name": "laravel/framework",
@@ -560,12 +560,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "f270ac1607c6f85e969bc6c2f21a6ee339668e85"
+                "reference": "247dcee07a29c57f562c7b40b7407812a926cbd0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/f270ac1607c6f85e969bc6c2f21a6ee339668e85",
-                "reference": "f270ac1607c6f85e969bc6c2f21a6ee339668e85",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/247dcee07a29c57f562c7b40b7407812a926cbd0",
+                "reference": "247dcee07a29c57f562c7b40b7407812a926cbd0",
                 "shasum": ""
             },
             "require": {
@@ -647,7 +647,7 @@
                 "pusher/pusher-php-server": "Required to use the Pusher broadcast driver (~2.0).",
                 "symfony/css-selector": "Required to use some of the crawler integration testing tools (3.1.*).",
                 "symfony/dom-crawler": "Required to use most of the crawler integration testing tools (3.1.*).",
-                "symfony/psr-http-message-bridge": "Required to psr7 bridging features (0.2.*)."
+                "symfony/psr-http-message-bridge": "Required to use psr7 bridging features (0.2.*)."
             },
             "type": "library",
             "extra": {
@@ -680,7 +680,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-10-15 21:57:12"
+            "time": "2016-10-16 11:03:20"
         },
         {
             "name": "league/flysystem",
