@@ -519,12 +519,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/koselig/library.git",
-                "reference": "48efe99c1e442e78fdbd355b942dd4936dc050f0"
+                "reference": "58d5298f85891962b05aae811efea5955f26c97f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koselig/library/zipball/48efe99c1e442e78fdbd355b942dd4936dc050f0",
-                "reference": "48efe99c1e442e78fdbd355b942dd4936dc050f0",
+                "url": "https://api.github.com/repos/koselig/library/zipball/58d5298f85891962b05aae811efea5955f26c97f",
+                "reference": "58d5298f85891962b05aae811efea5955f26c97f",
                 "shasum": ""
             },
             "require": {
@@ -552,7 +552,7 @@
                 "source": "https://github.com/koselig/library/tree/master",
                 "issues": "https://github.com/koselig/library/issues"
             },
-            "time": "2016-10-15 13:41:28"
+            "time": "2016-10-16 10:05:08"
         },
         {
             "name": "laravel/framework",
@@ -560,12 +560,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "5e11dab631543401feeba085e8a90d0992ef75c8"
+                "reference": "f270ac1607c6f85e969bc6c2f21a6ee339668e85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/5e11dab631543401feeba085e8a90d0992ef75c8",
-                "reference": "5e11dab631543401feeba085e8a90d0992ef75c8",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/f270ac1607c6f85e969bc6c2f21a6ee339668e85",
+                "reference": "f270ac1607c6f85e969bc6c2f21a6ee339668e85",
                 "shasum": ""
             },
             "require": {
@@ -680,7 +680,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-10-15 02:55:21"
+            "time": "2016-10-15 21:57:12"
         },
         {
             "name": "league/flysystem",
