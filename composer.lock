@@ -519,12 +519,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/koselig/library.git",
-                "reference": "d1ef15c6c3ec68d10daa6da9959e4bdb6e988a91"
+                "reference": "d7f7da4ed19963f1efaa489d0b863c36eafa7f54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koselig/library/zipball/d1ef15c6c3ec68d10daa6da9959e4bdb6e988a91",
-                "reference": "d1ef15c6c3ec68d10daa6da9959e4bdb6e988a91",
+                "url": "https://api.github.com/repos/koselig/library/zipball/d7f7da4ed19963f1efaa489d0b863c36eafa7f54",
+                "reference": "d7f7da4ed19963f1efaa489d0b863c36eafa7f54",
                 "shasum": ""
             },
             "require": {
@@ -552,7 +552,7 @@
                 "source": "https://github.com/koselig/library/tree/master",
                 "issues": "https://github.com/koselig/library/issues"
             },
-            "time": "2016-10-16 14:20:25"
+            "time": "2016-10-16 15:03:25"
         },
         {
             "name": "laravel/framework",

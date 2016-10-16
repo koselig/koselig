@@ -12,6 +12,17 @@
                     haven't already!
                 </div>
             </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">Posts</div>
+                <div class="panel-body">
+                    <ul>
+                        @loop
+                            <li><a href="{{ Loop::link() }}">{{ Loop::title() }}</a> - {{ Loop::get()->author->display_name }}</li>
+                        @endloop
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 @stop

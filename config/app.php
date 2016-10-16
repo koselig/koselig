@@ -228,6 +228,7 @@ return [
         'Meta' => Koselig\Models\Meta::class,
         'Hash' => Koselig\Facades\WPHash::class,
         'Query' => Koselig\Facades\Query::class,
+        'Loop' => Koselig\Facades\Loop::class,
 
         // Application Aliases
 
