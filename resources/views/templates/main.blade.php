@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        @wphead
 
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -24,5 +25,6 @@
 
     <body class="{{ isset($post) ? $post->classes() : '' }}">
         @yield('body')
+        @wpfooter
     </body>
 </html>
