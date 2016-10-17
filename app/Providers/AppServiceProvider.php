@@ -2,6 +2,7 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Koselig\Support\Action;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -12,6 +13,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        Action::hook('the_title', function ($title) {
+            return 'Koselig - ' . $title;
+        });
     }
 
     /**
