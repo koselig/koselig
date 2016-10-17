@@ -13,7 +13,7 @@
 
         <!-- Styles -->
         <link href="//fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-        <link href="/css/app.css" rel="stylesheet">
+        <link href="{{ elixir('css/app.css') }}" rel="stylesheet">
 
         <!-- Scripts -->
         <script>
@@ -24,7 +24,11 @@
     </head>
 
     <body class="{{ isset($post) ? $post->classes() : '' }}">
-        @yield('body')
+        <div id="app">
+            @yield('body')
+        </div>
+
+        <script src="{{ elixir('js/app.js') }}"></script>
         @wpfooter
     </body>
 </html>

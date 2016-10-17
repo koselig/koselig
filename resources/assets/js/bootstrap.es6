@@ -1,5 +1,9 @@
 
-window._ = require('lodash');
+import lodash from 'lodash';
+import jquery from 'jquery';
+import vue from 'vue';
+
+window._ = lodash;
 
 /**
  * We'll load jQuery and the Bootstrap jQuery plugin which provides support
@@ -7,7 +11,7 @@ window._ = require('lodash');
  * code may be modified to fit the specific needs of your application.
  */
 
-window.$ = window.jQuery = require('jquery');
+window.$ = window.jQuery = jquery;
 require('bootstrap-sass');
 
 /**
@@ -16,7 +20,7 @@ require('bootstrap-sass');
  * and simple, leaving you to focus on building your next great project.
  */
 
-window.Vue = require('vue');
+window.Vue = vue;
 require('vue-resource');
 
 /**
