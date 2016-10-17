@@ -10,6 +10,10 @@
             "url": "http://github.com/koselig/library"
         },
         {
+            "type": "vcs",
+            "url": "https://github.com/fahrenheit-marketing/gravityforms"
+        },
+        {
             "type": "composer",
             "url": "https://wpackagist.org"
         },
@@ -36,7 +40,9 @@
         "koselig/library": "dev-master",
         "johnpbloch/wordpress": "^4.6",
         "roots/wp-password-bcrypt": "^1.0",
-        "advanced-custom-fields/advanced-custom-fields-pro": "*"
+        "advanced-custom-fields/advanced-custom-fields-pro": "*",
+        "wpackagist-plugin/tinymce-advanced": "^4.4",
+        "fahrenheit-marketing/gravityforms": "^2.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

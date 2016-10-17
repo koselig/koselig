@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6a55cd59c99d38608759bd7b9015bfd4",
-    "content-hash": "44f6827803ae36b4987fb83be937c93e",
+    "hash": "534498d7dacdc580382b828504878caf",
+    "content-hash": "f6bd95eb796d733ba1a62dd4631b457f",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -282,6 +282,37 @@
                 "string"
             ],
             "time": "2016-05-12 17:23:41"
+        },
+        {
+            "name": "fahrenheit-marketing/gravityforms",
+            "version": "2.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fahrenheit-marketing/gravityforms.git",
+                "reference": "1dff803a12ea13385a3fb48b69ff95bb6384e249"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fahrenheit-marketing/gravityforms/zipball/1dff803a12ea13385a3fb48b69ff95bb6384e249",
+                "reference": "1dff803a12ea13385a3fb48b69ff95bb6384e249",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.3"
+            },
+            "type": "wordpress-plugin",
+            "extra": {
+                "installer-name": "gravityforms"
+            },
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "Fork of GravityForms repo with composer.json for Bedrock.",
+            "support": {
+                "source": "https://github.com/fahrenheit-marketing/gravityforms/tree/2.0.5"
+            },
+            "time": "2016-09-05 19:24:50"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -2234,6 +2265,26 @@
                 "environment"
             ],
             "time": "2016-09-01 10:05:43"
+        },
+        {
+            "name": "wpackagist-plugin/tinymce-advanced",
+            "version": "4.4.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/tinymce-advanced/",
+                "reference": "tags/4.4.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/tinymce-advanced.4.4.1.zip",
+                "reference": "tags/4.4.1",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/tinymce-advanced/"
         }
     ],
     "packages-dev": [
