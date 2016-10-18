@@ -24,7 +24,7 @@
                 <div class="panel-body">
                     <ul>
                         @loop
-                            <li><a href="{{ Loop::link() }}">{{ Loop::title() }}</a> - {{ Loop::get()->author->display_name }}</li>
+                            <li><a href="{{ Loop::link() }}">{{ Loop::title() }}</a> - {{ Loop::author()->first()->display_name }}</li>
                         @endloop
                     </ul>
                 </div>

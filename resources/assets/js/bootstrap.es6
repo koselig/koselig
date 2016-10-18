@@ -1,7 +1,7 @@
 
-import lodash from 'lodash';
-import jquery from 'jquery';
-import vue from 'vue';
+import lodash from "lodash";
+import jquery from "jquery";
+import vue from "vue";
 
 window._ = lodash;
 
@@ -12,7 +12,7 @@ window._ = lodash;
  */
 
 window.$ = window.jQuery = jquery;
-require('bootstrap-sass');
+import 'bootstrap-sass';
 
 /**
  * Vue is a modern JavaScript library for building interactive web interfaces
@@ -21,7 +21,7 @@ require('bootstrap-sass');
  */
 
 window.Vue = vue;
-require('vue-resource');
+import "vue-resource";
 
 /**
  * We'll register a HTTP interceptor to attach the "CSRF" header to each of
