@@ -42,7 +42,8 @@
         "roots/wp-password-bcrypt": "^1.0",
         "advanced-custom-fields/advanced-custom-fields-pro": "*",
         "wpackagist-plugin/tinymce-advanced": "^4.4",
-        "fahrenheit-marketing/gravityforms": "^2.0"
+        "fahrenheit-marketing/gravityforms": "^2.0",
+        "barryvdh/laravel-ide-helper": "^2.2"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

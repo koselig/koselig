@@ -167,6 +167,8 @@ return [
          */
         Koselig\Providers\KoseligServiceProvider::class,
 
+        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+
         /*
          * Application Service Providers...
          */
