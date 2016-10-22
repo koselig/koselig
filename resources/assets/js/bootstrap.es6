@@ -1,4 +1,3 @@
-
 import lodash from "lodash";
 import jquery from "jquery";
 import vue from "vue";
