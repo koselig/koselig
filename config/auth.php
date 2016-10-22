@@ -43,7 +43,7 @@ return [
 
         'wordpress' => [
             'driver' => 'wordpress',
-            'provider' => 'wp_users'
+            'provider' => 'wp_users',
         ],
 
         'api' => [
@@ -78,9 +78,9 @@ return [
         'wp_users' => [
             'driver' => [
                 'driver' => 'eloquent',
-                'model' => Koselig\Models\User::class
+                'model' => Koselig\Models\User::class,
             ],
-        ]
+        ],
 
         // 'users' => [
         //     'driver' => 'database',
