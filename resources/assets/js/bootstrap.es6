@@ -29,6 +29,12 @@ require('vue-resource');
  * included with Laravel will automatically verify the header's value.
  */
 
+$.ajaxSetup({
+    beforeSend: function (xhr) {
+        xhr.setRequestHeader('X-CSRF-TOKEN', Koselig.csrfToken);
+    }
+});
+
 Vue.http.interceptors.push((request, next) => {
     request.headers.set('X-CSRF-TOKEN', Koselig.csrfToken);
 
