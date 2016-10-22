@@ -25,6 +25,6 @@ Route::singular('post', function (Koselig\Models\Post $post) {
     return view('post', ['post' => $post]);
 });
 
-Route::singular('page', function (\Koselig\Models\Post $page) {
+Route::singular('page', function (Koselig\Models\Post $page) {
     dd($page);
 });
