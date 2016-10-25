@@ -522,12 +522,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeremeamia/super_closure.git",
-                "reference": "2b338315d54ea37aa6c5e97f4d75a33ccf303503"
+                "reference": "378cdc081c75f3024ee862d73272a52bc7e5f6b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeremeamia/super_closure/zipball/2b338315d54ea37aa6c5e97f4d75a33ccf303503",
-                "reference": "2b338315d54ea37aa6c5e97f4d75a33ccf303503",
+                "url": "https://api.github.com/repos/jeremeamia/super_closure/zipball/378cdc081c75f3024ee862d73272a52bc7e5f6b5",
+                "reference": "378cdc081c75f3024ee862d73272a52bc7e5f6b5",
                 "shasum": ""
             },
             "require": {
@@ -572,7 +572,7 @@
                 "serialize",
                 "tokenizer"
             ],
-            "time": "2016-09-23 18:24:34"
+            "time": "2016-10-24 13:58:03"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -580,12 +580,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "ff06d99caca953288555b08fd8d7709894409b27"
+                "reference": "4c6fd1843ecca92b0e9df7d5a8463226583a8714"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/ff06d99caca953288555b08fd8d7709894409b27",
-                "reference": "ff06d99caca953288555b08fd8d7709894409b27",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/4c6fd1843ecca92b0e9df7d5a8463226583a8714",
+                "reference": "4c6fd1843ecca92b0e9df7d5a8463226583a8714",
                 "shasum": ""
             },
             "require": {
@@ -609,7 +609,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2016-10-22 04:16:41"
+            "time": "2016-10-25 03:01:43"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -665,12 +665,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/koselig/library.git",
-                "reference": "58f27f351566dd7b0ee13c61596f244861065230"
+                "reference": "d7377585d1768bcf900ac372f221e2dea3ed5e85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koselig/library/zipball/58f27f351566dd7b0ee13c61596f244861065230",
-                "reference": "58f27f351566dd7b0ee13c61596f244861065230",
+                "url": "https://api.github.com/repos/koselig/library/zipball/d7377585d1768bcf900ac372f221e2dea3ed5e85",
+                "reference": "d7377585d1768bcf900ac372f221e2dea3ed5e85",
                 "shasum": ""
             },
             "require": {
@@ -698,7 +698,7 @@
                 "source": "https://github.com/koselig/library/tree/master",
                 "issues": "https://github.com/koselig/library/issues"
             },
-            "time": "2016-10-22 22:09:38"
+            "time": "2016-10-25 10:56:03"
         },
         {
             "name": "laravel/framework",
@@ -706,12 +706,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "b9f05614fcd73adb44edf78ee5b249aa65e82f3f"
+                "reference": "7cc2574af1070d5cb1f2366b810dd888c2f596b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/b9f05614fcd73adb44edf78ee5b249aa65e82f3f",
-                "reference": "b9f05614fcd73adb44edf78ee5b249aa65e82f3f",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/7cc2574af1070d5cb1f2366b810dd888c2f596b4",
+                "reference": "7cc2574af1070d5cb1f2366b810dd888c2f596b4",
                 "shasum": ""
             },
             "require": {
@@ -826,7 +826,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-10-22 20:53:09"
+            "time": "2016-10-24 19:49:25"
         },
         {
             "name": "league/flysystem",
@@ -1840,12 +1840,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "33ad47277fff6997fe8dd4a65c9a72b12cc0b668"
+                "reference": "f21e5a8b88274b7720779aa88f9c02c6d6ec08d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/33ad47277fff6997fe8dd4a65c9a72b12cc0b668",
-                "reference": "33ad47277fff6997fe8dd4a65c9a72b12cc0b668",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/f21e5a8b88274b7720779aa88f9c02c6d6ec08d7",
+                "reference": "f21e5a8b88274b7720779aa88f9c02c6d6ec08d7",
                 "shasum": ""
             },
             "require": {
@@ -1885,7 +1885,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2016-10-18 04:30:12"
+            "time": "2016-10-24 15:52:44"
         },
         {
             "name": "symfony/http-kernel",
@@ -1893,12 +1893,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "cd670ba8285a1c5105e7861363efb77e575a682a"
+                "reference": "d433bb2b92c2b7b09c0d887e6151aed0a83cec24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/cd670ba8285a1c5105e7861363efb77e575a682a",
-                "reference": "cd670ba8285a1c5105e7861363efb77e575a682a",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/d433bb2b92c2b7b09c0d887e6151aed0a83cec24",
+                "reference": "d433bb2b92c2b7b09c0d887e6151aed0a83cec24",
                 "shasum": ""
             },
             "require": {
@@ -1967,7 +1967,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "https://symfony.com",
-            "time": "2016-10-22 14:30:10"
+            "time": "2016-10-23 01:13:38"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -2519,12 +2519,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "409c90a58a0018aab219a9b521cfb57483596474"
+                "reference": "f207b4a855fc971241d7084b923ff2e78096104b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/409c90a58a0018aab219a9b521cfb57483596474",
-                "reference": "409c90a58a0018aab219a9b521cfb57483596474",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/f207b4a855fc971241d7084b923ff2e78096104b",
+                "reference": "f207b4a855fc971241d7084b923ff2e78096104b",
                 "shasum": ""
             },
             "require": {
@@ -2561,7 +2561,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2016-10-20 13:01:38"
+            "time": "2016-10-24 07:55:38"
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -3180,12 +3180,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "c4d334af83710a48d3c39728d515c99413598034"
+                "reference": "b0c4a96b3eca878a7fe1537d1b6fd1175dccd434"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/c4d334af83710a48d3c39728d515c99413598034",
-                "reference": "c4d334af83710a48d3c39728d515c99413598034",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/b0c4a96b3eca878a7fe1537d1b6fd1175dccd434",
+                "reference": "b0c4a96b3eca878a7fe1537d1b6fd1175dccd434",
                 "shasum": ""
             },
             "require": {
@@ -3254,7 +3254,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2016-10-09 13:28:23"
+            "time": "2016-10-25 07:41:28"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -3943,12 +3943,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "3d42c56f989688ad0790dcdc3c706d60748af6a6"
+                "reference": "d2cab32980d8de786744fabdec95991a0ebd7ea8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/3d42c56f989688ad0790dcdc3c706d60748af6a6",
-                "reference": "3d42c56f989688ad0790dcdc3c706d60748af6a6",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/d2cab32980d8de786744fabdec95991a0ebd7ea8",
+                "reference": "d2cab32980d8de786744fabdec95991a0ebd7ea8",
                 "shasum": ""
             },
             "require": {
@@ -3990,7 +3990,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2016-10-21 21:10:51"
+            "time": "2016-10-24 18:44:12"
         },
         {
             "name": "webmozart/assert",
