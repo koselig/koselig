@@ -1,0 +1,34 @@
+preset: laravel
+
+risky: true
+
+enabled:
+  - unalign_double_arrow
+  - combine_consecutive_unsets
+  - concat_with_spaces
+  - dir_constant
+  - ereg_to_preg
+  - linebreak_after_opening_tag
+  - modernize_types_casting
+  - no_blank_lines_before_namespace
+  - no_empty_comment
+  - no_php4_constructor
+  - no_short_echo_tag
+  - no_useless_else
+  - ordered_class_elements
+  - ordered_imports
+  - php_unit_construct
+  - php_unit_dedicate_assert
+  - php_unit_strict
+  - phpdoc_order
+  - phpdoc_property
+  - phpdoc_separation
+  - random_api_migration
+  - semicolon_after_instruction
+  - strict_comparison
+  - strict_param
+
+disabled:
+  - concat_without_spaces
+  - single_blank_line_before_namespace
+  - not_operator_with_successor_space

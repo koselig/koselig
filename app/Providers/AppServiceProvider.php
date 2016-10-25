@@ -13,9 +13,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        Action::hook('the_title', function ($title) {
-            return 'Koselig - ' . $title;
-        });
     }
 
     /**
