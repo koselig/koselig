@@ -166,7 +166,7 @@ return [
          * Package Service Providers...
          */
         Koselig\Providers\KoseligServiceProvider::class,
-
+        Barryvdh\Debugbar\ServiceProvider::class,
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
 
         /*
