@@ -16,4 +16,5 @@ return [
     'path_current_site' => env('PATH_CURRENT_SITE'),
     'site_id_current_site' => env('SITE_ID_CURRENT_SITE'),
     'blog_id_current_site' => env('BLOG_ID_CURRENT_SITE'),
+    'caching' => env('DB_CACHE'),
 ];
