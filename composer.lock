@@ -28,12 +28,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/barryvdh/laravel-debugbar.git",
-                "reference": "e353bc168503798e2f4800073d0850347b30c0d7"
+                "reference": "b97745824d6f96604144e8fdc7095ea7adc08ce7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/barryvdh/laravel-debugbar/zipball/e353bc168503798e2f4800073d0850347b30c0d7",
-                "reference": "e353bc168503798e2f4800073d0850347b30c0d7",
+                "url": "https://api.github.com/repos/barryvdh/laravel-debugbar/zipball/b97745824d6f96604144e8fdc7095ea7adc08ce7",
+                "reference": "b97745824d6f96604144e8fdc7095ea7adc08ce7",
                 "shasum": ""
             },
             "require": {
@@ -74,7 +74,7 @@
                 "profiler",
                 "webprofiler"
             ],
-            "time": "2016-09-23 11:48:11"
+            "time": "2016-10-26 07:33:01"
         },
         {
             "name": "barryvdh/laravel-ide-helper",
@@ -719,12 +719,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/koselig/library.git",
-                "reference": "b509d0f25c010efc39fd4de9f1a4dd690e1cdcf9"
+                "reference": "03ce81c0d9a19c0d85a466e13fc1d17cb6d81176"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koselig/library/zipball/b509d0f25c010efc39fd4de9f1a4dd690e1cdcf9",
-                "reference": "b509d0f25c010efc39fd4de9f1a4dd690e1cdcf9",
+                "url": "https://api.github.com/repos/koselig/library/zipball/03ce81c0d9a19c0d85a466e13fc1d17cb6d81176",
+                "reference": "03ce81c0d9a19c0d85a466e13fc1d17cb6d81176",
                 "shasum": ""
             },
             "require": {
@@ -753,7 +753,7 @@
                 "source": "https://github.com/koselig/library/tree/master",
                 "issues": "https://github.com/koselig/library/issues"
             },
-            "time": "2016-10-25 16:57:16"
+            "time": "2016-10-27 19:14:07"
         },
         {
             "name": "laravel/framework",
@@ -761,12 +761,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "09f2515b72eba3229dfce44a801852b9b8d011e2"
+                "reference": "e5697d5f0c244b443a7622328a6d3d99b93dbe72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/09f2515b72eba3229dfce44a801852b9b8d011e2",
-                "reference": "09f2515b72eba3229dfce44a801852b9b8d011e2",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/e5697d5f0c244b443a7622328a6d3d99b93dbe72",
+                "reference": "e5697d5f0c244b443a7622328a6d3d99b93dbe72",
                 "shasum": ""
             },
             "require": {
@@ -881,7 +881,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-10-25 13:38:24"
+            "time": "2016-10-27 14:29:20"
         },
         {
             "name": "league/flysystem",
@@ -1482,12 +1482,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramsey/uuid.git",
-                "reference": "2d19c68f5cc8b414936aff8a236fe9578f42e57b"
+                "reference": "fe152ef1eee94c42a1ad24478fc7200299c328c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/uuid/zipball/2d19c68f5cc8b414936aff8a236fe9578f42e57b",
-                "reference": "2d19c68f5cc8b414936aff8a236fe9578f42e57b",
+                "url": "https://api.github.com/repos/ramsey/uuid/zipball/fe152ef1eee94c42a1ad24478fc7200299c328c7",
+                "reference": "fe152ef1eee94c42a1ad24478fc7200299c328c7",
                 "shasum": ""
             },
             "require": {
@@ -1555,7 +1555,7 @@
                 "identifier",
                 "uuid"
             ],
-            "time": "2016-10-07 13:31:56"
+            "time": "2016-10-26 14:58:11"
         },
         {
             "name": "roots/wp-password-bcrypt",
@@ -2009,12 +2009,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "d433bb2b92c2b7b09c0d887e6151aed0a83cec24"
+                "reference": "e25a5fd134f6f39dac2c4d251e31ab05635d3376"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/d433bb2b92c2b7b09c0d887e6151aed0a83cec24",
-                "reference": "d433bb2b92c2b7b09c0d887e6151aed0a83cec24",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/e25a5fd134f6f39dac2c4d251e31ab05635d3376",
+                "reference": "e25a5fd134f6f39dac2c4d251e31ab05635d3376",
                 "shasum": ""
             },
             "require": {
@@ -2083,7 +2083,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "https://symfony.com",
-            "time": "2016-10-23 01:13:38"
+            "time": "2016-10-27 02:53:37"
         },
         {
             "name": "symfony/polyfill-mbstring",
