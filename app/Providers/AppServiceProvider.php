@@ -2,7 +2,6 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Koselig\Support\Action;
 
 class AppServiceProvider extends ServiceProvider
 {
