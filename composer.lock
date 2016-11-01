@@ -634,12 +634,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "4c6fd1843ecca92b0e9df7d5a8463226583a8714"
+                "reference": "7b4a6dcacc866532ff0c05049391bbc2fee05d37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/4c6fd1843ecca92b0e9df7d5a8463226583a8714",
-                "reference": "4c6fd1843ecca92b0e9df7d5a8463226583a8714",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/7b4a6dcacc866532ff0c05049391bbc2fee05d37",
+                "reference": "7b4a6dcacc866532ff0c05049391bbc2fee05d37",
                 "shasum": ""
             },
             "require": {
@@ -663,7 +663,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2016-10-25 03:01:43"
+            "time": "2016-10-29 09:31:39"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -719,12 +719,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/koselig/library.git",
-                "reference": "03ce81c0d9a19c0d85a466e13fc1d17cb6d81176"
+                "reference": "0d5c99072f0ea21f4f2065fb52c7ba7915505050"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koselig/library/zipball/03ce81c0d9a19c0d85a466e13fc1d17cb6d81176",
-                "reference": "03ce81c0d9a19c0d85a466e13fc1d17cb6d81176",
+                "url": "https://api.github.com/repos/koselig/library/zipball/0d5c99072f0ea21f4f2065fb52c7ba7915505050",
+                "reference": "0d5c99072f0ea21f4f2065fb52c7ba7915505050",
                 "shasum": ""
             },
             "require": {
@@ -737,7 +737,10 @@
             "autoload": {
                 "psr-4": {
                     "Koselig\\": "src/"
-                }
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
             },
             "license": [
                 "GPL-3.0+"
@@ -753,7 +756,7 @@
                 "source": "https://github.com/koselig/library/tree/master",
                 "issues": "https://github.com/koselig/library/issues"
             },
-            "time": "2016-10-27 19:14:07"
+            "time": "2016-11-01 10:40:13"
         },
         {
             "name": "laravel/framework",
@@ -761,12 +764,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "e5697d5f0c244b443a7622328a6d3d99b93dbe72"
+                "reference": "f2c1253fc2aae9df160f6cc8686196066083c0d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/e5697d5f0c244b443a7622328a6d3d99b93dbe72",
-                "reference": "e5697d5f0c244b443a7622328a6d3d99b93dbe72",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/f2c1253fc2aae9df160f6cc8686196066083c0d4",
+                "reference": "f2c1253fc2aae9df160f6cc8686196066083c0d4",
                 "shasum": ""
             },
             "require": {
@@ -881,7 +884,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-10-27 14:29:20"
+            "time": "2016-10-31 22:02:47"
         },
         {
             "name": "league/flysystem",
@@ -1482,12 +1485,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramsey/uuid.git",
-                "reference": "fe152ef1eee94c42a1ad24478fc7200299c328c7"
+                "reference": "34447f3f0f1f4ed4997f18b610f5589015eb004f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/uuid/zipball/fe152ef1eee94c42a1ad24478fc7200299c328c7",
-                "reference": "fe152ef1eee94c42a1ad24478fc7200299c328c7",
+                "url": "https://api.github.com/repos/ramsey/uuid/zipball/34447f3f0f1f4ed4997f18b610f5589015eb004f",
+                "reference": "34447f3f0f1f4ed4997f18b610f5589015eb004f",
                 "shasum": ""
             },
             "require": {
@@ -1500,6 +1503,7 @@
             "require-dev": {
                 "apigen/apigen": "^4.1",
                 "codeception/aspect-mock": "1.0.0",
+                "doctrine/annotations": "~1.2.0",
                 "goaop/framework": "1.0.0-alpha.2",
                 "ircmaxell/random-lib": "^1.1",
                 "jakub-onderka/php-parallel-lint": "^0.9.0",
@@ -1555,7 +1559,7 @@
                 "identifier",
                 "uuid"
             ],
-            "time": "2016-10-26 14:58:11"
+            "time": "2016-10-31 14:25:20"
         },
         {
             "name": "roots/wp-password-bcrypt",
@@ -2683,12 +2687,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "f207b4a855fc971241d7084b923ff2e78096104b"
+                "reference": "81f9493330d934cf0bc8fc4b58d4fbd39ffc6227"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/f207b4a855fc971241d7084b923ff2e78096104b",
-                "reference": "f207b4a855fc971241d7084b923ff2e78096104b",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/81f9493330d934cf0bc8fc4b58d4fbd39ffc6227",
+                "reference": "81f9493330d934cf0bc8fc4b58d4fbd39ffc6227",
                 "shasum": ""
             },
             "require": {
@@ -2725,7 +2729,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2016-10-24 07:55:38"
+            "time": "2016-10-31 20:18:56"
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -2845,16 +2849,16 @@
         },
         {
             "name": "myclabs/deep-copy",
-            "version": "1.5.4",
+            "version": "1.5.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/myclabs/DeepCopy.git",
-                "reference": "ea74994a3dc7f8d2f65a06009348f2d63c81e61f"
+                "reference": "399c1f9781e222f6eb6cc238796f5200d1b7f108"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/ea74994a3dc7f8d2f65a06009348f2d63c81e61f",
-                "reference": "ea74994a3dc7f8d2f65a06009348f2d63c81e61f",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/399c1f9781e222f6eb6cc238796f5200d1b7f108",
+                "reference": "399c1f9781e222f6eb6cc238796f5200d1b7f108",
                 "shasum": ""
             },
             "require": {
@@ -2883,7 +2887,7 @@
                 "object",
                 "object graph"
             ],
-            "time": "2016-09-16 13:37:59"
+            "time": "2016-10-31 17:19:45"
         },
         {
             "name": "phpdocumentor/reflection-common",
@@ -3100,12 +3104,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "8ca687f6b13f38f0593fe26a84de00ef4fd82c51"
+                "reference": "6cba06ff75a1a63a71033e1a01b89056f3af1e8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/8ca687f6b13f38f0593fe26a84de00ef4fd82c51",
-                "reference": "8ca687f6b13f38f0593fe26a84de00ef4fd82c51",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/6cba06ff75a1a63a71033e1a01b89056f3af1e8d",
+                "reference": "6cba06ff75a1a63a71033e1a01b89056f3af1e8d",
                 "shasum": ""
             },
             "require": {
@@ -3155,7 +3159,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2016-10-03 07:41:08"
+            "time": "2016-11-01 05:06:24"
         },
         {
             "name": "phpunit/php-file-iterator",

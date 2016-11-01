@@ -25,7 +25,6 @@ export default class Router {
             .map(_.upperFirst)
             .map((v) => v.concat('Controller'))
             .forEach((className) => {
-                console.log(className);
                 this.fire(className);
                 this.fire(className, 'finalize');
             });
