@@ -12,7 +12,7 @@ return [
     | any other location as required by the application or its packages.
     */
 
-    'name' => 'Laravel',
+    'name' => 'Koselig',
 
     /*
     |--------------------------------------------------------------------------
@@ -161,6 +161,11 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+
+        /**
+         * Application Service Providers to be loaded before Koselig...
+         */
+        App\Providers\ACFServiceProvider::class,
 
         /*
          * Package Service Providers...
