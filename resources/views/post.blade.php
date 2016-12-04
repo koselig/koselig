@@ -17,7 +17,7 @@
             <div class="panel panel-default">
                 <div class="panel-heading">{{ $post->title }}</div>
                 <div class="panel-body">
-                    {!! $post->content !!}
+                    {!! wp_kses_post($post->content) !!}
                 </div>
                 <div class="panel-footer">
                     - <a href="{{ $post->author->link() }}">{{ $post->author->display_name }}</a>
@@ -30,8 +30,11 @@
                     <div class="panel-heading">Comments</div>
                     <div class="panel-body">
                         @foreach($comments as $child)
-                            <blockquote style="margin-left: {{ $comments->getDepth() * 20 }}px">
-                                {!! $child->content !!}
+                            <blockquote style="margin-left: {{ $comments->getDepth() * 20 }}px" class="clearfix">
+                                <div style="float: left; margin-right: 20px;">
+                                    <img src="{{ $child->avatar(['size' => 50]) }}" class="img-circle">
+                                </div>
+                                {!! wp_kses_data($child->content) !!}
                                 <footer>{{ $child->comment_author }}</footer>
                             </blockquote>
                         @endforeach
