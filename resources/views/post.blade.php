@@ -29,17 +29,15 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">Comments</div>
                     <div class="panel-body">
-                        @foreach($post->comments as $comment)
-                            <blockquote>
-                                {!! $comment->content !!}
-                                <footer>{{ $comment->comment_author }}</footer>
+                        @foreach($comments as $child)
+                            <blockquote style="margin-left: {{ $comments->getDepth() * 20 }}px">
+                                {!! $child->content !!}
+                                <footer>{{ $child->comment_author }}</footer>
                             </blockquote>
                         @endforeach
                     </div>
                 </div>
             @endunless
-
-            {!! Koselig\Models\Post::navigation() !!}
         </div>
     </div>
 @stop

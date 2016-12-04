@@ -22,7 +22,10 @@ Route::author(function (Koselig\Models\User $user) {
 });
 
 Route::singular('post', function (Koselig\Models\Post $post) {
-    return view('post', ['post' => $post]);
+    return view('post', [
+        'post' => $post,
+        'comments' => $post->getCommentIterator()
+    ]);
 });
 
 Route::singular('page', function (Koselig\Models\Post $page) {
