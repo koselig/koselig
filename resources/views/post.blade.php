@@ -21,7 +21,7 @@
                 </div>
                 <div class="panel-footer">
                     - <a href="{{ $post->author->link() }}">{{ $post->author->display_name }}</a>
-                    ({{ $post->categories->map(function ($a) { return $a->name; })->implode(', ') }})
+                    ({{ $post->categories->keyBy('name')->keys()->implode(', ') }})
                 </div>
             </div>
 
