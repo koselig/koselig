@@ -634,12 +634,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "abf06a6910116860e760e02265a458db53de2371"
+                "reference": "480dbbc49f579b110893b21d59b84b38ee006743"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/abf06a6910116860e760e02265a458db53de2371",
-                "reference": "abf06a6910116860e760e02265a458db53de2371",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/480dbbc49f579b110893b21d59b84b38ee006743",
+                "reference": "480dbbc49f579b110893b21d59b84b38ee006743",
                 "shasum": ""
             },
             "require": {
@@ -663,7 +663,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2016-12-03 06:32:11"
+            "time": "2016-12-04 19:31:48"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -719,12 +719,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/koselig/library.git",
-                "reference": "0cc40aeeefe3e5a1ac31b4b7d7ef36288ef3483a"
+                "reference": "cbdf81c27179560e10cda76abb9c758489bd0eb3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koselig/library/zipball/0cc40aeeefe3e5a1ac31b4b7d7ef36288ef3483a",
-                "reference": "0cc40aeeefe3e5a1ac31b4b7d7ef36288ef3483a",
+                "url": "https://api.github.com/repos/koselig/library/zipball/cbdf81c27179560e10cda76abb9c758489bd0eb3",
+                "reference": "cbdf81c27179560e10cda76abb9c758489bd0eb3",
                 "shasum": ""
             },
             "require": {
@@ -756,7 +756,7 @@
                 "source": "https://github.com/koselig/library/tree/master",
                 "issues": "https://github.com/koselig/library/issues"
             },
-            "time": "2016-12-04 13:31:30"
+            "time": "2016-12-04 19:44:51"
         },
         {
             "name": "laravel/framework",
@@ -764,12 +764,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "d1a4f3fc7951c04ff91855511ed8c73b1a98e533"
+                "reference": "8d634ef6f7a79f8f7dbbdf3108d40149920bb9e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/d1a4f3fc7951c04ff91855511ed8c73b1a98e533",
-                "reference": "d1a4f3fc7951c04ff91855511ed8c73b1a98e533",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/8d634ef6f7a79f8f7dbbdf3108d40149920bb9e4",
+                "reference": "8d634ef6f7a79f8f7dbbdf3108d40149920bb9e4",
                 "shasum": ""
             },
             "require": {
@@ -884,7 +884,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-12-03 18:53:29"
+            "time": "2016-12-04 18:33:08"
         },
         {
             "name": "league/flysystem",
@@ -1036,12 +1036,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "bad29cb8d18ab0315e6c477751418a82c850d558"
+                "reference": "fdd6780ffd2f1aa1d7af7d6c69f186bf17d35cd4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/bad29cb8d18ab0315e6c477751418a82c850d558",
-                "reference": "bad29cb8d18ab0315e6c477751418a82c850d558",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/fdd6780ffd2f1aa1d7af7d6c69f186bf17d35cd4",
+                "reference": "fdd6780ffd2f1aa1d7af7d6c69f186bf17d35cd4",
                 "shasum": ""
             },
             "require": {
@@ -1106,7 +1106,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2016-11-26 00:15:39"
+            "time": "2016-12-04 18:12:24"
         },
         {
             "name": "mtdowling/cron-expression",
