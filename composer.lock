@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e338164cc9a58445f6f72548e308e772",
-    "content-hash": "c8befbd6b44ea78d19ea416c27dad2aa",
+    "hash": "1ac62972016b5ed556417202aaf6e885",
+    "content-hash": "7d76f3c9f5b7360175d99c2270d0830f",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -453,35 +453,73 @@
             "time": "2016-05-12 17:23:41"
         },
         {
-            "name": "fahrenheit-marketing/gravityforms",
-            "version": "2.0.5",
+            "name": "graham-campbell/exceptions",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/fahrenheit-marketing/gravityforms.git",
-                "reference": "1dff803a12ea13385a3fb48b69ff95bb6384e249"
+                "url": "https://github.com/GrahamCampbell/Laravel-Exceptions.git",
+                "reference": "e45d68c3b49f23bbe5d14d79e04993e1e58af629"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fahrenheit-marketing/gravityforms/zipball/1dff803a12ea13385a3fb48b69ff95bb6384e249",
-                "reference": "1dff803a12ea13385a3fb48b69ff95bb6384e249",
+                "url": "https://api.github.com/repos/GrahamCampbell/Laravel-Exceptions/zipball/e45d68c3b49f23bbe5d14d79e04993e1e58af629",
+                "reference": "e45d68c3b49f23bbe5d14d79e04993e1e58af629",
                 "shasum": ""
             },
             "require": {
-                "composer/installers": "~1.0",
-                "php": ">=5.3"
+                "illuminate/contracts": "5.1.*|5.2.*|5.3.*",
+                "illuminate/support": "5.1.*|5.2.*|5.3.*",
+                "paragonie/random_compat": "^1.1|^2.0",
+                "php": ">=5.5.9",
+                "psr/log": "^1.0",
+                "symfony/debug": "^2.7|^3.0",
+                "symfony/http-foundation": "^2.7|^3.0"
             },
-            "type": "wordpress-plugin",
+            "require-dev": {
+                "filp/whoops": "^1.1|^2.0",
+                "graham-campbell/testbench": "^3.1",
+                "mockery/mockery": "^0.9.4",
+                "phpunit/phpunit": "^4.8|^5.0"
+            },
+            "suggest": {
+                "filp/whoops": "Enables use of the debug displayer."
+            },
+            "type": "library",
             "extra": {
-                "installer-name": "gravityforms"
+                "branch-alias": {
+                    "dev-master": "9.1-dev"
+                }
             },
+            "autoload": {
+                "psr-4": {
+                    "GrahamCampbell\\Exceptions\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-3.0"
+                "MIT"
             ],
-            "description": "Fork of GravityForms repo with composer.json for Bedrock.",
-            "support": {
-                "source": "https://github.com/fahrenheit-marketing/gravityforms/tree/2.0.5"
-            },
-            "time": "2016-09-05 19:24:50"
+            "authors": [
+                {
+                    "name": "Graham Campbell",
+                    "email": "graham@alt-three.com"
+                }
+            ],
+            "description": "Provides A Powerful Error Response System For Both Development And Production",
+            "keywords": [
+                "Graham Campbell",
+                "GrahamCampbell",
+                "Laravel Exceptions",
+                "Laravel-Exceptions",
+                "error",
+                "errors",
+                "exception",
+                "exceptions",
+                "framework",
+                "laravel",
+                "whoops"
+            ],
+            "time": "2016-09-20 12:30:03"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -2680,6 +2718,97 @@
                 "instantiate"
             ],
             "time": "2016-03-31 10:24:22"
+        },
+        {
+            "name": "fahrenheit-marketing/gravityforms",
+            "version": "2.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fahrenheit-marketing/gravityforms.git",
+                "reference": "1dff803a12ea13385a3fb48b69ff95bb6384e249"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fahrenheit-marketing/gravityforms/zipball/1dff803a12ea13385a3fb48b69ff95bb6384e249",
+                "reference": "1dff803a12ea13385a3fb48b69ff95bb6384e249",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.3"
+            },
+            "type": "wordpress-plugin",
+            "extra": {
+                "installer-name": "gravityforms"
+            },
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "Fork of GravityForms repo with composer.json for Bedrock.",
+            "support": {
+                "source": "https://github.com/fahrenheit-marketing/gravityforms/tree/2.0.5"
+            },
+            "time": "2016-09-05 19:24:50"
+        },
+        {
+            "name": "filp/whoops",
+            "version": "2.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/filp/whoops.git",
+                "reference": "3f5cbd0e6a2fc17bc40b0238025ef1ff4c8c3efa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/3f5cbd0e6a2fc17bc40b0238025ef1ff4c8c3efa",
+                "reference": "3f5cbd0e6a2fc17bc40b0238025ef1ff4c8c3efa",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.5.9 || ^7.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.9.*",
+                "phpunit/phpunit": "^4.8 || ^5.0",
+                "symfony/var-dumper": "^2.6 || ^3.0"
+            },
+            "suggest": {
+                "symfony/var-dumper": "Pretty print complex values better with var-dumper available",
+                "whoops/soap": "Formats errors as SOAP responses"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Whoops\\": "src/Whoops/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Filipe Dobreira",
+                    "homepage": "https://github.com/filp",
+                    "role": "Developer"
+                }
+            ],
+            "description": "php error handling for cool kids",
+            "homepage": "https://filp.github.io/whoops/",
+            "keywords": [
+                "error",
+                "exception",
+                "handling",
+                "library",
+                "whoops",
+                "zf2"
+            ],
+            "time": "2016-10-11 15:32:23"
         },
         {
             "name": "fzaninotto/faker",
