@@ -171,7 +171,7 @@ return [
          * Package Service Providers...
          */
         // Barryvdh\Debugbar\ServiceProvider::class,
-        GrahamCampbell\Exceptions\ExceptionsServiceProvider::class,
+        // GrahamCampbell\Exceptions\ExceptionsServiceProvider::class,
         Koselig\Providers\KoseligServiceProvider::class,
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
 

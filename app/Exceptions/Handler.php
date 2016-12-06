@@ -2,8 +2,8 @@
 namespace App\Exceptions;
 
 use Exception;
-use GrahamCampbell\Exceptions\NewExceptionHandler as ExceptionHandler;
 use Illuminate\Auth\AuthenticationException;
+use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 
 class Handler extends ExceptionHandler
 {
