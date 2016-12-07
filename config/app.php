@@ -162,7 +162,7 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
 
-        /**
+        /*
          * Application Service Providers to be loaded before Koselig...
          */
         App\Providers\ACFServiceProvider::class,
