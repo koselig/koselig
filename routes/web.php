@@ -33,3 +33,7 @@ Route::singular('page', function (Koselig\Models\Post $page) {
         'page' => $page
     ]);
 });
+
+Route::category(function () {
+    return view('home');
+});
