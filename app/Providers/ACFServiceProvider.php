@@ -27,7 +27,7 @@ class ACFServiceProvider extends ServiceProvider
 
         Action::hook('acf/settings/load_json', function ($paths) use ($location) {
             // this hook is ran twice for whatever reason so we have to conditionally add our location
-            return !in_array($location, $paths) ? array_merge($paths, [$location]) : $paths;
+            return !in_array($location, $paths, true) ? array_merge($paths, [$location]) : $paths;
         });
     }
 }
