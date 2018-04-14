@@ -17,7 +17,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Facade;
 
-require __DIR__ . '/../bootstrap/autoload.php';
+require __DIR__ . '/../vendor/autoload.php';
 
 /*
 |--------------------------------------------------------------------------
@@ -48,11 +48,10 @@ $app = require_once __DIR__ . '/../bootstrap/app.php';
 $kernel = $app->make(Illuminate\Contracts\Http\Kernel::class);
 
 $app->bootstrapWith([
-    Illuminate\Foundation\Bootstrap\DetectEnvironment::class,
-    Illuminate\Foundation\Bootstrap\LoadConfiguration::class,
-    Illuminate\Foundation\Bootstrap\ConfigureLogging::class,
-    Illuminate\Foundation\Bootstrap\HandleExceptions::class,
-    Illuminate\Foundation\Bootstrap\RegisterFacades::class,
+    \Illuminate\Foundation\Bootstrap\LoadEnvironmentVariables::class,
+    \Illuminate\Foundation\Bootstrap\LoadConfiguration::class,
+    \Illuminate\Foundation\Bootstrap\HandleExceptions::class,
+    \Illuminate\Foundation\Bootstrap\RegisterFacades::class,
 ]);
 
 $app->instance('request', Request::capture());

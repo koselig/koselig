@@ -17,7 +17,7 @@
             "type": "package",
             "package": {
                 "name": "advanced-custom-fields/advanced-custom-fields-pro",
-                "version": "5.4.6",
+                "version": "5.6.10",
                 "type": "wordpress-plugin",
                 "dist": {
                     "type": "zip",
@@ -39,17 +39,17 @@
         "johnpbloch/wordpress": "^4.6",
         "roots/wp-password-bcrypt": "^1.0",
         "advanced-custom-fields/advanced-custom-fields-pro": "*",
-        "wpackagist-plugin/tinymce-advanced": "^4.4",
-        "barryvdh/laravel-ide-helper": "^2.2",
-        "barryvdh/laravel-debugbar": "^2.3",
-        "graham-campbell/exceptions": "^9.1"
+        "wpackagist-plugin/tinymce-advanced": "^4.6",
+        "barryvdh/laravel-ide-helper": "^2.4",
+        "barryvdh/laravel-debugbar": "^3.1",
+        "graham-campbell/exceptions": "^11.0"
     },
     "require-dev": {
-        "fzaninotto/faker": "~1.4",
+        "fzaninotto/faker": "~1.7",
         "mockery/mockery": "^1.0",
-        "phpunit/phpunit": "^7.0",
-        "symfony/css-selector": "3.1.*",
-        "symfony/dom-crawler": "3.1.*",
+        "phpunit/phpunit": "^7.1",
+        "symfony/css-selector": "^4.0",
+        "symfony/dom-crawler": "^4.0",
         "filp/whoops": "^2.1",
         "nunomaduro/collision": "^2.0"
     },
@@ -65,12 +65,6 @@
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "dont-discover": [
-            ]
         }
     },
     "scripts": {
@@ -98,6 +92,10 @@
             "public/content/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
             "public/content/plugins/{$name}/": ["type:wordpress-plugin"],
             "public/content/themes/{$name}/": ["type:wordpress-theme"]
+        },
+        "laravel": {
+            "dont-discover": [
+            ]
         }
     }
 }
