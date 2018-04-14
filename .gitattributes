@@ -2,3 +2,5 @@
 *.css linguist-vendored
 *.scss linguist-vendored
 .htaccess linguist-vendored
+*.js linguist-vendored
+CHANGELOG.md export-ignore
