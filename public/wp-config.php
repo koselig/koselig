@@ -17,6 +17,8 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Facade;
 
+require __DIR__ . '/../vendor/koselig/library/src/helpers.php';
+
 require __DIR__ . '/../vendor/autoload.php';
 
 /*
