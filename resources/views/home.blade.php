@@ -6,17 +6,23 @@
 
         @if(Query::hasPosts())
             @loop
-                <article>
-                    <header>
-                        <h2><a href="{{ $post->link }}">{{ $post->title }}</a></h2>
+                <article class="card mb-3">
+                    <header class="card-header d-flex">
+                        <a href="{{ $post->link }}" class="mr-auto">{{ $post->title }}</a>
                         <time datetime="{{ $post->post_date->format('c') }}">{{ $post->post_date->format(Wordpress::option('date_format')) }}</time>
-
-                        <p>
-                            By <a href="{{ $post->author->link() }}" rel="author" class="fn">{{ $post->author->display_name }}</a>
-                        </p>
                     </header>
 
-                    <p>{{ $post->excerpt }}</p>
+                    <section class="card-body">
+                        <p>{{ $post->excerpt }}</p>
+
+                        <div class="blockquote-footer">
+                            <a href="{{ $post->author->link() }}" rel="author" class="fn">{{ $post->author->display_name }}</a>
+                        </div>
+                    </section>
+
+                    <footer class="card-footer bg-white text-right">
+                        <a href="{{ $post->link }}">Continue Reading &raquo;</a>
+                    </footer>
                 </article>
             @endloop
         @else

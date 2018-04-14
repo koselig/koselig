@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html {{ get_language_attributes() }}>
+<html {!! get_language_attributes() ?: 'lang="' . app()->getLocale() . '"' !!}>
     <head>
-        <meta charset="{{ get_bloginfo('charset') }}">
+        <meta charset="{{ get_bloginfo('charset') ?: 'utf-8' }}">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         @wphead
@@ -11,26 +11,20 @@
 
         <!-- Styles -->
         <link href="//fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-        <link href="{{ elixir('css/app.css') }}" rel="stylesheet">
-
-        <!-- Scripts -->
-        <script>
-            window.Koselig = {!! json_encode([
-                'csrfToken' => csrf_token(),
-            ]) !!}
-        </script>
+        <link href="{{ mix('/css/app.css') }}" rel="stylesheet">
     </head>
 
     <body class="{{ $post->classes ?? '' }}">
-        <nav class="navbar navbar-fixed-top navbar-light bg-faded">
-            <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse"
+        <nav class="navbar navbar-expand-lg navbar-light navbar-laravel">
+            <a class="navbar-brand" href="{{ route('home') }}">{{ get_bloginfo('name') }}</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-                    aria-label="Toggle navigation"></button>
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-            <div class="collapse navbar-toggleable-md" id="navbarResponsive">
-                <a class="navbar-brand" href="{{ route('home') }}">{{ get_bloginfo('name') }}</a>
-
-                <ul class="nav navbar-nav">
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav mr-auto">
                     {{-- Unfortunetly Bootstrap only has documentation for 1 level subnavs --}}
                     @foreach(($menu = menu('primary_navigation', 0)) as $item)
                         @if($menu->callHasChildren())
@@ -61,7 +55,9 @@
             @yield('body')
         </div>
 
-        <script src="{{ elixir('js/app.js') }}"></script>
+        <script src="{{ mix('/js/manifest.js') }}"></script>
+        <script src="{{ mix('/js/vendor.js') }}"></script>
+        <script src="{{ mix('/js/app.js') }}"></script>
         @wpfooter
     </body>
 </html>

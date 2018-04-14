@@ -11,5 +11,17 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/assets/js/app.js', 'public/js')
-   .sass('resources/assets/sass/app.scss', 'public/css');
+mix.js('resources/assets/js/app.es6', 'public/js')
+    .sourceMaps(!mix.inProduction())
+    .extract([
+        'axios',
+        'bootstrap',
+        'jquery',
+        'lodash',
+        'popper.js',
+        'vue'
+    ])
+    .version();
+
+mix.sass('resources/assets/sass/app.scss', 'public/css')
+    .version();
