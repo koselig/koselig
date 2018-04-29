@@ -1,9 +1,8 @@
 <?php
-
 namespace Tests;
 
-use Illuminate\Support\Facades\Hash;
 use Illuminate\Contracts\Console\Kernel;
+use Illuminate\Support\Facades\Hash;
 
 trait CreatesApplication
 {
@@ -14,7 +13,7 @@ trait CreatesApplication
      */
     public function createApplication()
     {
-        $app = require __DIR__.'/../bootstrap/app.php';
+        $app = require __DIR__ . '/../bootstrap/app.php';
 
         $app->make(Kernel::class)->bootstrap();
 
