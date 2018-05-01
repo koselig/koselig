@@ -9,7 +9,7 @@
 
 ## What is this?
 
-This is your standard [Laravel](https://laravel.com/) install but with a few little extras 😉. Koselig is your gateway to Wordpress from Laravel. When a user makes a request, Koselig will boot Wordpress and attempt to match the page Wordpress thinks its on with a Laravel route you define (we have additional route methods such as Template, Page Type, Post ID, etc). From that point on, you're in Laravel world but with full access to Wordpress and all the functions that Wordpress exposes.
+This is your standard [Laravel](https://laravel.com/) install but with a few little extras 😉. Koselig is your gateway to Wordpress from Laravel. When a user makes a request, Koselig will boot Wordpress and attempt to match the page Wordpress thinks its on with a Laravel route you define (Koselig provides route methods such as Template, Page Type, Post ID, etc). From that point on, you're in Laravel world but with full access to Wordpress and all the functions that Wordpress exposes.
 
 But we know that's not good enough; Wordpress' API is straight up ugly and doesn't know which paradigm it's following. Koselig attempts to abstract Wordpress away from you, the developer, by providing a beautiful interface to call into Wordpress code. An [auth guard](https://laravel.com/docs/5.6/authentication) has been defined for Wordpress, Eloquent models for Wordpress have been setup and we have proxies for everything that doesn't make sense to rewrite to make them PSR2 compliant.
 
