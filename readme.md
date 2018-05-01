@@ -1,4 +1,4 @@
-<p align="center"><h1>Koselig</h1></p>
+<p align="center"><a href="https://koselig.github.io/documentation/" target="_blank"><img src="https://i.imgur.com/qomjDtC.png"></a></p>
 
 <p align="center">
 <a href="https://travis-ci.org/koselig/library"><img src="https://travis-ci.org/koselig/library.svg" alt="Build Status"></a>
