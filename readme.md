@@ -14,6 +14,8 @@ But we know that's not good enough; Wordpress' API is straight up ugly and doesn
 
 If you've never used Laravel before you should definitely read over their [docs](https://laravel.com/docs/master), it'll make your life as a PHP developer so much better. While we're on the topic of docs, [here's ours](https://koselig.github.io/documentation/) (they're not as good as Laravel's though sorry ☹️)
 
+The Wordpress dashboard is available at /cms. There will be a full Wordpress install in your environment but it's managed via [composer](https://getcomposer.org/) along with all your Wordpress plugins.
+
 ## Security Vulnerabilities
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com).
