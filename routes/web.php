@@ -11,12 +11,6 @@
 |
 */
 
-Route::get('/', [function () {
-    // this is a normal laravel route that isn't covered by wordpress, these should
-    // normally be avoided and only used for things like api calls and form submissions.
-    return view('home');
-}, 'as' => 'home']);
-
 Route::author(function (Koselig\Models\User $user) {
     return view('user', ['user' => $user]);
 });
@@ -37,3 +31,9 @@ Route::singular('page', function (Koselig\Models\Post $page) {
 Route::category(function () {
     return view('home');
 });
+
+Route::get('/', [function () {
+    // this is a normal laravel route that isn't covered by wordpress, these should
+    // normally be avoided and only used for things like api calls and form submissions.
+    return view('home');
+}, 'as' => 'home']);
