@@ -25,8 +25,8 @@
 
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav mr-auto">
-                    {{-- Unfortunetly Bootstrap only has documentation for 1 level subnavs --}}
-                    @foreach(($menu = menu('primary_navigation', 0)) as $item)
+                    {{-- Unfortunately Bootstrap only has documentation for 1 level subnavs --}}
+                    @foreach($menu as $item)
                         @if($menu->callHasChildren())
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="{{ $item->url }}"
