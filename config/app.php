@@ -147,21 +147,9 @@ return [
         Illuminate\View\ViewServiceProvider::class,
 
         /*
-         * Application Service Providers to be loaded before Koselig...
-         */
-        App\Providers\ACFServiceProvider::class,
-
-        /*
-         * Package Service Providers...
-         */
-        // Barryvdh\Debugbar\ServiceProvider::class,
-        // GrahamCampbell\Exceptions\ExceptionsServiceProvider::class,
-        Koselig\Providers\KoseligServiceProvider::class,
-        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
-
-        /*
          * Application Service Providers...
          */
+        App\Providers\ACFServiceProvider::class,
         App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
         // App\Providers\BroadcastServiceProvider::class,
@@ -217,11 +205,7 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
 
         // Koselig Aliases
-        'Wordpress' => Koselig\Support\Wordpress::class,
-        'Meta' => Koselig\Models\Meta::class,
         'Hash' => Koselig\Facades\WPHash::class,
-        'Query' => Koselig\Facades\Query::class,
-        'Loop' => Koselig\Facades\Loop::class,
 
         // Application Aliases
 

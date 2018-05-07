@@ -17,7 +17,7 @@ class AppServiceProvider extends ServiceProvider
 
         View::share('menu', (function () {
             try {
-                return menu('primary_navigation', 0);
+                return @menu('primary_navigation', 0);
             } catch (Exception $e) {
                 return [];
             }
