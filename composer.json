@@ -36,6 +36,7 @@
         "laravel/framework": "5.6.*",
         "laravel/tinker": "^1.0",
         "koselig/library": "dev-master",
+        "cweagans/composer-patches": "^1.6",
         "johnpbloch/wordpress": "^4.6",
         "roots/wp-password-bcrypt": "^1.0",
         "advanced-custom-fields/advanced-custom-fields-pro": "*",
@@ -96,6 +97,7 @@
         "laravel": {
             "dont-discover": [
             ]
-        }
+        },
+        "enable-patching": true
     }
 }
