@@ -1,4 +1,4 @@
-let mix = require('laravel-mix');
+const mix = require('laravel-mix');
 
 /*
  |--------------------------------------------------------------------------
@@ -11,7 +11,7 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/assets/js/app.es6', 'public/js')
+mix.js('resources/js/app.es6', 'public/js')
     .sourceMaps(!mix.inProduction())
     .extract([
         'axios',
@@ -23,5 +23,5 @@ mix.js('resources/assets/js/app.es6', 'public/js')
     ])
     .version();
 
-mix.sass('resources/assets/sass/app.scss', 'public/css')
+mix.sass('resources/sass/app.scss', 'public/css')
     .version();

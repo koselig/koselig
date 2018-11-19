@@ -27,7 +27,11 @@ document.addEventListener('DOMContentLoaded', () => new Router([
  * the application, or feel free to tweak this setup for your needs.
  */
 
-Vue.component('example', require('./components/Example.vue'));
+const files = require.context('./', true, /\.vue$/i)
+files.keys().map(key => {
+    const name = _.last(key.split('/')).split('.')[0];
+    return Vue.component(name, files(key));
+}) ;
 
 const app = new Vue({
     el: '#app'

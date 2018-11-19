@@ -10,7 +10,7 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
         <!-- Styles -->
-        <link href="//fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href="//fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
         <link href="{{ mix('/css/app.css') }}" rel="stylesheet">
     </head>
 
