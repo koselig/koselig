@@ -1,6 +1,6 @@
 <?php
 
-use Illuminate\Support\Str; 
+use Illuminate\Support\Str;
 
 return [
 
@@ -88,6 +88,6 @@ return [
     |
     */
 
-    'prefix' => env('CACHE_PREFIX', Str::slug(env('APP_NAME', 'koselig'), '_').'_cache'),
+    'prefix' => env('CACHE_PREFIX', Str::slug(env('APP_NAME', 'koselig'), '_') . '_cache'),
 
 ];
