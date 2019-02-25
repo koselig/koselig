@@ -6,10 +6,6 @@
     "type": "project",
     "repositories": [
         {
-            "type": "path",
-            "url": "../library"
-        },
-        {
             "type": "composer",
             "url": "https://wpackagist.org"
         },
