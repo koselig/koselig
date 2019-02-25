@@ -33,22 +33,22 @@
         "laravel/tinker": "^1.0",
         "koselig/library": "dev-master",
         "cweagans/composer-patches": "^1.6",
-        "johnpbloch/wordpress": "^4.6",
+        "johnpbloch/wordpress": "^5.1",
         "roots/wp-password-bcrypt": "^1.0",
         "advanced-custom-fields/advanced-custom-fields-pro": "*",
-        "wpackagist-plugin/tinymce-advanced": "^4.6",
-        "barryvdh/laravel-ide-helper": "^2.4",
-        "barryvdh/laravel-debugbar": "^3.1",
-        "graham-campbell/exceptions": "^11.0"
+        "wpackagist-plugin/tinymce-advanced": "^5.1",
+        "barryvdh/laravel-ide-helper": "^2.5",
+        "barryvdh/laravel-debugbar": "^3.2",
+        "graham-campbell/exceptions": "^11.1"
     },
     "require-dev": {
-        "fzaninotto/faker": "~1.4",
-        "mockery/mockery": "^1.0",
+        "fzaninotto/faker": "~1.8",
+        "mockery/mockery": "^1.2",
         "phpunit/phpunit": "^7.1",
-        "symfony/css-selector": "^4.0",
-        "symfony/dom-crawler": "^4.0",
-        "filp/whoops": "^2.0",
-        "nunomaduro/collision": "^2.0"
+        "symfony/css-selector": "^4.2",
+        "symfony/dom-crawler": "^4.2",
+        "filp/whoops": "^2.3",
+        "nunomaduro/collision": "^2.1"
     },
     "autoload": {
         "psr-4": {
