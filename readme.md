@@ -1,9 +1,13 @@
 <p align="center"><a href="https://koselig.github.io/documentation/" target="_blank"><img src="https://i.imgur.com/5OLmEHu.png"></a></p>
 
 <p align="center">
-<a href="https://travis-ci.org/koselig/library"><img src="https://travis-ci.org/koselig/library.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/koselig/library"><img src="https://poser.pugx.org/koselig/library/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/koselig/library"><img src="https://poser.pugx.org/koselig/library/v/unstable.svg" alt="Latest Stable Version"></a>
+    <a href="https://travis-ci.org/koselig/library"><img src="https://travis-ci.org/koselig/library.svg" alt="Build Status"></a>
+    <a href="https://packagist.org/packages/koselig/library"><img src="https://poser.pugx.org/koselig/library/d/total.svg" alt="Total Downloads"></a>
+    <a href="https://packagist.org/packages/koselig/library"><img src="https://poser.pugx.org/koselig/library/v/unstable.svg" alt="Latest Stable Version"></a>
+</p>
+
+<p align="center">
+    <a href="https://koselig.github.io/documentation/">Documentation</a>
 </p>
 
 ## What is this?
